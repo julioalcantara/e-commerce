@@ -1,3 +1,10 @@
+## E-commerce
+An React "ecommerce" application from [Udemy](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/).
+
+## What I learned
+* Developed a e-commerce website using React, Bootstrap(SASS) and Firebase. The user is albe sign in / sign up in the application with email and password, also using their google account.
+* Creation of custom Inputs & Buttons.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
