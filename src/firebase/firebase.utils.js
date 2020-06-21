@@ -48,13 +48,13 @@ const config = {
     return await batch.commit();
   };
 
-  export const convertCollectionsSnapshotToMap = (collections) => {
-    const transformedCollection = collections.docs.map(doc => {
-      const { title, items } = doc.data();
+  export const convertCollectionsSnapshotToMap = collectionsSnapShot => {
+    const transformedCollection = collectionsSnapShot.docs.map(docSnapShot => {
+      const { title, items } = docSnapShot.data();
 
       return {
         routeName: encodeURI(title.toLowerCase()),
-        id: doc.id,
+        id: docSnapShot.id,
         title,
         items
       }; 
