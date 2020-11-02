@@ -17,17 +17,16 @@ const SignUp = ({ signUpStart }) => {
   });
 
   const { displayName, email, password, confirmPassword } = userCredentials;
-  
+
   const handleSubmit = async event => {
     event.preventDefault();
-    
+
     if (password !== confirmPassword) {
       alert("passwords don't match");
       return;
     }
 
     signUpStart({ displayName, email, password });
-
   };
 
   const handleChange = event => {
@@ -77,10 +76,13 @@ const SignUp = ({ signUpStart }) => {
       </form>
     </SignUpContainer>
   );
-}
+};
 
-const mapDispatchToPprops = dispatch => ({
+const mapDispatchToProps = dispatch => ({
   signUpStart: userCredentials => dispatch(signUpStart(userCredentials))
-})
+});
 
-export default connect(null, mapDispatchToPprops)(SignUp);
+export default connect(
+  null,
+  mapDispatchToProps
+)(SignUp);
