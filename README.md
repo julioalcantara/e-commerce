@@ -1,5 +1,9 @@
+# E-commerce web application - Crwn-Cloting
 
-# How to fork and clone
+Crwn-Clothing is an Open Source e-commerce web application, committed to providing the best shopping cart experience for both merchants and customers. It is written in React where Redux is used as a state manager. Crwn-Clothing uses Firebase Database to store data and Stripe API for payments. The application is deployed with the help of Heroku.
+
+
+# Be free to clone this application. How to fork and clone
 
 One quick note about cloning this project. If you wish to make commits and push the code up after cloning this repo, you should fork the project first. In order to own your own copy of this repository, you have to fork it so you get your own copy on your own profile!
 
@@ -128,4 +132,8 @@ After heroku finishes building our project, we can simply run:
 heroku open
 ```
 
-This will open up our browser and take us to our newly deployed Heroku project!
+This will open up our browser and take you to your newly deployed Heroku project!
+
+
+If you want to build this application step by step there is a course on Udemy. Click [here](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/) to go to the course.
+
