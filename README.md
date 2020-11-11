@@ -1,6 +1,6 @@
 # E-commerce web application - Crwn-Cloting
 
-Crwn-Clothing is an Open Source e-commerce web application, committed to providing the best shopping cart experience for both merchants and customers. It is written in React where Redux is used as a state manager. Crwn-Clothing uses Firebase Database to store data and Stripe API for payments. The application is deployed with the help of Heroku.
+Crwn-Clothing is a Web Application, committed to providing the best shopping cart experience for both merchants and customers. It is written in React where Redux is used as a state manager. Crwn-Clothing uses Firebase Database to store data and Stripe API for payments. The application is deployed with the help of Heroku.
 
 
 # Be free to clone this application. How to fork and clone
